@@ -1,0 +1,122 @@
+body {
+    margin: 0px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+header { 
+    display: flex; 
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+} 
+
+.logoNav { 
+    display: flex; 
+    margin-left: 80px;
+} 
+
+.logo {
+    margin-right: 70px;
+}
+
+.navigation a {
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+.btnlogin {
+    margin-right: 80px;
+ 
+}
+
+.btnlogin a {
+    text-decoration: none;
+}
+
+
+.btnlogin button {
+    margin-left: 30px;
+}
+
+button {
+     border-radius: 100px
+
+}
+
+
+.footerlogo{
+   
+    display:flex;
+    margin-left: 90px;
+   
+  
+    
+    
+    }
+
+    img{
+        width: 20px;
+        margin-inline: 10px;
+       
+        
+    }
+
+
+.navbar {
+    display: none;
+    margin-right: 80px;
+}
+
+.navbar img {
+    width: 30px;
+}
+
+.heroimagetext {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagebox img {
+    width: 350px;
+}
+
+.textbox {
+    width: 400px;
+}
+
+.textbox h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+
+@media (max-width: 800px) {
+    
+    .navbar {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .btnlogin {
+        display: none;
+    }
+
+    .heroimagetext {
+        flex-direction: column-reverse;
+    }
+
+    .textbox {
+        text-align: center;
+    }
+
+    .textbox h1 {
+        font-size: 40px;
+    }
+}
+
+
